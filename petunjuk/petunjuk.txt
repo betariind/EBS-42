@@ -1,0 +1,41 @@
+﻿INFO LOGIN
+ADMIN
+username : admin
+password : admin
+GURU
+===========================
+jika membuat akun guru untuk login 
+===========================
+username : nama emailnya guru
+password : NIP guru
+SISWA
+====================================
+1. jika membuat akun siswa lewat admin
+====================================
+username : NIS Siswa
+password : NIS Siswa
+=============================
+*********************************
+=============================
+2. jika siswa membuat akun sendiri
+=============================
+Username dan password siswa sendiri yang tau.
+
+
+*semua password di enkripsi menggunakan SHA1 
+jika ada user yang lupa maka bisa diganti melalui database dan type nya di ganti SHA1
+=====================================
+jika di taro dihosting dan menggunakan https silahkan copy .htacces (hub admin) dan di pastekan 
+diluar folder.
+Dan abaikan jika di instal di localhost.
+
+petunjuk instalasi di localhost ( pastikan sudah menginstall xampp dengan versi php 5.6 - 7.3 )
+1. buat folder elearning atau namafolder anda sendiri di C:/xampp/htdocs
+2. silahkan copykan file elearning ini di folder yang telah dibuat
+3. buat database di localhost caranya ketik localhost/phpmyadmin
+5. setelah melewati tahap tersebut sekarang kembali kefolder yang anda buat tadi di 
+C:/xampp/htdocs/namafolderanda lalu cari folder config dan edit db.php dan koneksi.php cari tulisan
+$db=”isinamadatabaseandadisini” dan sesuaikan dengan nama database yang anda buat tadi.
+6. setelah setting 2 file diatas ,, sekarang menuju ke browser dan ketik kan localhost/namafolder_elearning tadi 
+yang anda buat.
+Setelah tahap itu seharusnya elearning sudah berjalan
